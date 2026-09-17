@@ -104,27 +104,6 @@ function About() {
         </div>
       </section>
 
-      <section className="border-t border-border bg-background py-20">
-        <div className="container-tight">
-          <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
-            Education & experience
-          </p>
-          <h2 className="mt-2 font-serif text-3xl text-foreground md:text-4xl">Path so far</h2>
-          <div className="mt-12 space-y-10">
-            {timeline.map((item, index) => (
-              <div key={index} className="grid gap-4 md:grid-cols-[200px_1fr]">
-                <span className="text-sm font-medium text-primary">{item.period}</span>
-                <div>
-                  <h3 className="font-serif text-xl text-foreground">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground">{item.place}</p>
-                  <p className="mt-2 max-w-2xl text-muted-foreground">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <Separator />
 
       <section className="container-tight py-20">
