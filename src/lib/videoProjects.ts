@@ -52,6 +52,28 @@ export const videoCategories: VideoCategory[] = [
 
 export const videoProjects: VideoProject[] = [
   {
+    slug: "podcast-split-screen-2",
+    title: "Podcast Split-Screen Cut II",
+    category: "Social Edits",
+    duration: "0:43",
+    aspect: "9/16",
+    poster: podcastSplitScreen2Poster,
+    video: podcastSplitScreen2Video,
+    summary:
+      "Another split-screen podcast repurpose with word-by-word animated captions, cut for rhythm and punch across the two hosts' reactions.",
+  },
+  {
+    slug: "talking-head-channel-promo",
+    title: "Channel Promo, Talking Head",
+    category: "Social Edits",
+    duration: "0:45",
+    aspect: "9/16",
+    poster: talkingHeadChannelPromoPoster,
+    video: talkingHeadChannelPromoVideo,
+    summary:
+      "A direct-to-camera creator clip with moody purple lighting and bold caption cards, edited to promote a channel with a confident, personal tone.",
+  },
+  {
     slug: "podcast-split-screen",
     title: "Podcast Split-Screen Cut",
     category: "Social Edits",
@@ -107,17 +129,6 @@ export const videoProjects: VideoProject[] = [
       "A square-format faceless-style edit built from film footage, paired with voiceover for narrative-driven social storytelling.",
   },
   {
-    slug: "editor-bts-motivational",
-    title: "Editor's Desk, Late Night",
-    category: "Social Edits",
-    duration: "0:45",
-    aspect: "9/16",
-    poster: editorBtsPoster,
-    video: editorBtsVideo,
-    summary:
-      "A behind-the-scenes, motivational-style clip shot at the editing desk, paired with bold kinetic-type overlays — the kind of process content that builds a personal editing brand.",
-  },
-  {
     slug: "aerial-drift-car",
     title: "Mountain Road Drift",
     category: "AI-Generated",
@@ -160,28 +171,6 @@ export const videoProjects: VideoProject[] = [
     video: realEstateWalkthroughVideo,
     summary:
       "A smooth interior walkthrough of a bright living room and kitchen, edited for a real-estate listing's fast-paced visual tour.",
-  },
-  {
-    slug: "podcast-split-screen-2",
-    title: "Podcast Split-Screen Cut II",
-    category: "Social Edits",
-    duration: "0:43",
-    aspect: "9/16",
-    poster: podcastSplitScreen2Poster,
-    video: podcastSplitScreen2Video,
-    summary:
-      "Another split-screen podcast repurpose with word-by-word animated captions, cut for rhythm and punch across the two hosts' reactions.",
-  },
-  {
-    slug: "talking-head-channel-promo",
-    title: "Channel Promo, Talking Head",
-    category: "Social Edits",
-    duration: "0:45",
-    aspect: "9/16",
-    poster: talkingHeadChannelPromoPoster,
-    video: talkingHeadChannelPromoVideo,
-    summary:
-      "A direct-to-camera creator clip with moody purple lighting and bold caption cards, edited to promote a channel with a confident, personal tone.",
   },
   {
     slug: "cinematic-scene-edit",
