@@ -29,6 +29,7 @@ export const Route = createFileRoute("/video")({
 function VideoPage() {
   const [activeCategory, setActiveCategory] = useState<VideoCategory | "All">("All");
 
+  const featured = videoProjects.slice(0, 4);
   const filtered =
     activeCategory === "All"
       ? videoProjects
@@ -44,6 +45,12 @@ function VideoPage() {
         A selection of social edits, AI-assisted pieces, and short-form video work — cut for
         pacing, hook, and platform-native feel.
       </p>
+
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        {featured.map((project) => (
+          <VideoCard key={project.slug} project={project} />
+        ))}
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-2">
         <Button
@@ -66,7 +73,7 @@ function VideoPage() {
       </div>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {filtered.map((project) => (
+        {filtered.slice(4).map((project) => (
           <VideoCard key={project.slug} project={project} />
         ))}
       </div>

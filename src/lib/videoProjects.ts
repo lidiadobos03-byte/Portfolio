@@ -10,8 +10,6 @@ import vlogSelfieEditPoster from "../assets/videos/poster-vlog-selfie-edit.jpg";
 import vlogSelfieEditVideo from "../assets/videos/vlog-selfie-edit.mp4";
 import facelessMovieEditPoster from "../assets/videos/poster-faceless-movie-edit.jpg";
 import facelessMovieEditVideo from "../assets/videos/faceless-movie-edit.mp4";
-import editorBtsPoster from "../assets/videos/poster-editor-bts-motivational.jpg";
-import editorBtsVideo from "../assets/videos/editor-bts-motivational.mp4";
 import aerialDriftCarPoster from "../assets/videos/poster-aerial-drift-car.jpg";
 import aerialDriftCarVideo from "../assets/videos/aerial-drift-car.mp4";
 import businessAdTemplatePoster from "../assets/videos/poster-business-ad-template.jpg";
@@ -28,6 +26,14 @@ import cinematicSceneEditPoster from "../assets/videos/poster-cinematic-scene-ed
 import cinematicSceneEditVideo from "../assets/videos/cinematic-scene-edit.mp4";
 import cocktailProductShotPoster from "../assets/videos/poster-cocktail-product-shot.jpg";
 import cocktailProductShotVideo from "../assets/videos/cocktail-product-shot.mp4";
+import ukVisa01Poster from "../assets/videos/poster-uk-visa-01.jpg";
+import ukVisa01Video from "../assets/videos/uk-visa-01.mp4";
+import ukVisa02Poster from "../assets/videos/poster-uk-visa-02.jpg";
+import ukVisa02Video from "../assets/videos/uk-visa-02.mp4";
+import familyLegacyPoster from "../assets/videos/poster-family-legacy-portugal-golden-visa.jpg";
+import familyLegacyVideo from "../assets/videos/family-legacy-portugal-golden-visa.mp4";
+import video3CopyPoster from "../assets/videos/poster-video-3-copy.jpg";
+import video3CopyVideo from "../assets/videos/video-3-copy.mp4";
 
 export type VideoCategory = "Social Edits" | "AI-Generated" | "Fashion Film" | "Faceless Content";
 
@@ -51,6 +57,50 @@ export const videoCategories: VideoCategory[] = [
 ];
 
 export const videoProjects: VideoProject[] = [
+  {
+    slug: "uk-visa-01",
+    title: "UK Visa Story 01",
+    category: "Social Edits",
+    duration: "0:37",
+    aspect: "9/16",
+    poster: ukVisa01Poster,
+    video: ukVisa01Video,
+    summary:
+      "A short-form UK visa video with clean pacing, captions, and a strong hook designed to feel clear and high-impact on mobile.",
+  },
+  {
+    slug: "uk-visa-02",
+    title: "UK Visa Story 02",
+    category: "Social Edits",
+    duration: "0:47",
+    aspect: "9/16",
+    poster: ukVisa02Poster,
+    video: ukVisa02Video,
+    summary:
+      "A second UK-focused edit in the same visual system, built to present the narrative with a tighter rhythm and polished text treatment.",
+  },
+  {
+    slug: "family-legacy-portugal-golden-visa",
+    title: "Family Legacy — Portugal Golden Visa",
+    category: "Social Edits",
+    duration: "0:42",
+    aspect: "9/16",
+    poster: familyLegacyPoster,
+    video: familyLegacyVideo,
+    summary:
+      "A family storytelling video centred on the Portugal Golden Visa journey, cut for a warm, personal, and premium audience pitch.",
+  },
+  {
+    slug: "video-3-copy",
+    title: "Video 3 Copy",
+    category: "Social Edits",
+    duration: "0:33",
+    aspect: "9/16",
+    poster: video3CopyPoster,
+    video: video3CopyVideo,
+    summary:
+      "A compact vertical cut designed to keep the message clear and visually strong while fitting social-first viewing habits.",
+  },
   {
     slug: "podcast-split-screen-2",
     title: "Podcast Split-Screen Cut II",
