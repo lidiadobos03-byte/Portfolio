@@ -36,9 +36,9 @@ function Home() {
       <section className="container-tight py-20 md:py-28">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="space-y-6">
-            <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
-              Graphic Designer
-            </p>
+            <div className="inline-flex items-center rounded-full border border-border/80 bg-[#e6e0d8] px-4 py-2 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-foreground shadow-sm md:text-[0.8rem]">
+              Logo • Branding • Social Media
+            </div>
             <h1 className="font-serif text-4xl leading-[1.1] text-foreground md:text-5xl lg:text-6xl">
               Clear ideas, crafted visuals, thoughtful detail.
             </h1>
